@@ -25,9 +25,10 @@
                             <button type="button" onclick="deletePost({{ $post->id }})">delete</button> 
                         </form>
                     </div>
+                 <a href="/categories/{{ $post->category->id }}">{{ $post->category->name }}</a>
                 @endforeach
             </div>
-            <a href="/categories/{{ $post->category->id }}">{{ $post->category->name }}</a>
+           
             <div class = 'paginate'>
                 {{ $posts->links()}}
             </div>
