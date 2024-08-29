@@ -17,8 +17,14 @@
             <div class="content">
                 <div class="content__post">
                     <h3>本文</h3>
-                    <p>{{ $post->body }}</p>    
+                    <p>{{ $post->body }}</p>
                 </div>
+                @if($post->image_url)<!-- もし画像が挿入されたら -->
+                <div>
+                    <img src="{{ $post->image_url }}" alt="画像が読み込めません。">
+                </div>
+                @endif
+                <p>{{ $post->created_at }}</p>
             </div>
             <div class="edit"><a href="/posts/{{ $post->id }}/edit">edit</a></div>
             <a href="/categories/{{ $post->category->id }}">{{ $post->category->name }}</a>
