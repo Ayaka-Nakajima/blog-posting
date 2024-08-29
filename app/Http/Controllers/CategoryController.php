@@ -12,7 +12,7 @@ class CategoryController extends PostController
      */
     public function index(Category $category)
     {
-        $input[category_id] = $category->id;
+        //$input[category_id] = $category->id;
         return view('categories.index')->with(['posts' => $category->getByCategory()]);
     }
 

@@ -26,6 +26,7 @@
                         </form>
                     </div>
                  <a href="/categories/{{ $post->category->id }}">{{ $post->category->name }}</a>
+                 <p>{{ $post->created_at }}</p>
                 @endforeach
             </div>
            

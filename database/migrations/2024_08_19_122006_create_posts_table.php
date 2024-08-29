@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->string('body');
+            $table->string('image_url')->nullable();//画像投稿機能
             $table->timestamps();
         });
     }

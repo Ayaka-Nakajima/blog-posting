@@ -159,7 +159,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        CloudinaryLabs\CloudinaryLaravel\CloudinaryServiceProvider::class, //追記
         /*
          * Application Service Providers...
          */

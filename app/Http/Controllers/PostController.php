@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\PostRequest;
 use App\Models\Post;
 use App\Models\Category;
+use Cloudinary;
 
 /**
  * Post一覧を表示する
@@ -43,8 +44,17 @@ class PostController extends Controller
     
     public function store(PostRequest $request, Post $post)
     {
-        dd($request);
+        //dd($request->file);
         $input = $request['post'];
+        
+        //cloudinaryへ画像を送信し、画像のURLを$image_urlに代入している　//右辺で画像の外部ストレージ保存、URLの取得、左辺に代入
+        if($request->file('image')){ //画像ファイルが送られた時だけ処理が実行される
+            $image_url = Cloudinary::upload($request->file('image')->getRealPath())->getSecurePath();
+            $input += ['image_url' => $image_url];
+        }
+        
+       
+        //dd($input);
         $post->fill($input)->save();
         return redirect('/posts/' . $post->id);
     }
