@@ -5,13 +5,14 @@ namespace App\Http\Controllers;
 use App\Models\Category;
 use Illuminate\Http\Request;
 
-class CategoryController extends Controller
+class CategoryController extends PostController
 {
     /**
      * Display a listing of the resource.
      */
     public function index(Category $category)
     {
+        $input[category_id] = $category->id;
         return view('categories.index')->with(['posts' => $category->getByCategory()]);
     }
 
@@ -28,7 +29,7 @@ class CategoryController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
     }
 
     /**
