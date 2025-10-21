@@ -7,7 +7,12 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## 個人開発でブログ投稿機能を実装
+## 個人開発　成果物
+
+### アプリ名
+脂質異常を治すみんなの食事投稿サイト
+
+
 
 ## About Laravel
 
