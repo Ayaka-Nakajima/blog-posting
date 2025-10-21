@@ -44,6 +44,17 @@
 - 本気度ラベル
 - コミュニティ機能（本気度ラベルベース）
 
+## 使用したtech stack
+- AWS(cloud9※作成当時)
+- laravel
+- Maria DB
+- PHP, HTML, CSS, JS
+
+## 今後使用したいtech stack
+- AWS(S3, Aurora)
+- Vue.js or React
+- あすけんAPIの活用
+
 
 ## ワイヤーフレーム(Figmaに移行検討中)
 https://docs.google.com/presentation/d/1ZAroGVOjbLMyb7AzlYlRy8o9iJzJBeWSJKBd7p43Bgk/edit?usp=sharing
