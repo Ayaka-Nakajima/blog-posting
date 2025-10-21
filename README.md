@@ -59,7 +59,8 @@
 ## ワイヤーフレーム(Figmaに移行検討中)
 https://docs.google.com/presentation/d/1ZAroGVOjbLMyb7AzlYlRy8o9iJzJBeWSJKBd7p43Bgk/edit?usp=sharing
 
-<img width="1085" height="592" alt="image" src="https://github.com/user-attachments/assets/5a5d9fbb-db04-4c40-a745-6c4d325995a9" />
+<img width="1082" height="613" alt="image" src="https://github.com/user-attachments/assets/6cf3047c-a881-4b17-919d-595ea5995d68" />
+
 
 
 ## ER図(draw.ioで作成）
