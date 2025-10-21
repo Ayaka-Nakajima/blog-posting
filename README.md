@@ -11,6 +11,8 @@
 
 ## アプリ名
 脂質異常を治すみんなの食事投稿サイト
+<img width="1083" height="614" alt="image" src="https://github.com/user-attachments/assets/b719271e-1856-440a-9ea0-ff2c960d5865" />
+
 
 ## アプリ概要
 生活習慣病の一つである脂質異常症の人たちの為の交流サイト
@@ -45,6 +47,9 @@
 
 ## ワイヤーフレーム(Figmaに移行検討中)
 https://docs.google.com/presentation/d/1ZAroGVOjbLMyb7AzlYlRy8o9iJzJBeWSJKBd7p43Bgk/edit?usp=sharing
+
+<img width="1085" height="592" alt="image" src="https://github.com/user-attachments/assets/5a5d9fbb-db04-4c40-a745-6c4d325995a9" />
+
 
 ## ER図(draw.ioで作成）
 <img width="891" height="792" alt="image" src="https://github.com/user-attachments/assets/0dc2f621-929f-46fb-9a0d-ecf07b69bfa7" />
