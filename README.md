@@ -10,7 +10,7 @@
 # 個人開発　成果物
 
 ## アプリ名
-脂質異常を治すみんなの食事投稿サイト
+### 脂質異常を治すみんなの食事投稿サイト
 <img width="1083" height="614" alt="image" src="https://github.com/user-attachments/assets/b719271e-1856-440a-9ea0-ff2c960d5865" />
 
 
