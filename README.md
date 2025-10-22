@@ -58,8 +58,13 @@
 
 
 ## ワイヤーフレーム(Figmaに移行検討中)
+
+### wireframe
 https://docs.google.com/presentation/d/1ZAroGVOjbLMyb7AzlYlRy8o9iJzJBeWSJKBd7p43Bgk/edit?usp=sharing
 
+
+
+### images
 <img width="1082" height="613" alt="image" src="https://github.com/user-attachments/assets/6cf3047c-a881-4b17-919d-595ea5995d68" />
 
 
